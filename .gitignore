@@ -1,0 +1,54 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints and backups
+.ipynb_checkpoints/
+*.ipynb.bak
+
+# Jupyter kernels
+kernel-*/
+
+# PyTorch / model checkpoints
+*.ckpt
+*.pth
+models/
+
+# Env files
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Testing
+.pytest_cache/
+
+# Misc
+.coverage
+.cache/
+.mypy_cache/
+coverage.xml
+
+# Data files
+data/
+
+# Logs
+*.log
